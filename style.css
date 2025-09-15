@@ -1,0 +1,24 @@
+
+/* Estilo del botón de envío */
+#submit-btn {
+    background-color: #007BFF; /* Color azul */
+    border-color: #007BFF;
+    font-weight: bold;
+}
+
+#submit-btn:hover {
+    background-color: #0056b3; /* Un tono más oscuro en hover */
+    border-color: #0056b3;
+}
+
+/* Estilo de los inputs y textarea */
+.form-control {
+    border: 2px solid #6c757d; /* Borde gris oscuro */
+    border-radius: 6px; /* Bordes un poco redondeados */
+}
+
+/* Estilo al enfocar (cuando el usuario hace clic en el campo) */
+.form-control:focus {
+    border-color: #7d92fd; /* Borde amarillo al enfocar */
+    box-shadow: 0 0 0 0.25rem rgba(34, 71, 236, 0.25); /* Sombra de enfoque amarilla */
+}
